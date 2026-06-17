@@ -1,6 +1,6 @@
 # 🐧 SLAM Linux
 
-Jeu de quiz inspiré de l'émission **SLAM** (France Télévisions), adapté pour apprendre les commandes Linux de manière ludique. Réalisé entièrement en script Bash, avec interface graphique Zenity, synthèse vocale, et mode multijoueur en réseau local WiFi.
+Jeu de quiz  adapté pour apprendre les commandes Linux de manière ludique. Réalisé entièrement en script Bash, avec interface graphique Zenity, synthèse vocale, et mode multijoueur en réseau local WiFi.
 
 ---
 
@@ -18,7 +18,7 @@ Jeu de quiz inspiré de l'émission **SLAM** (France Télévisions), adapté pou
 ### Étape 1 — Télécharger le paquet
 
 ```bash
-wget https://github.com/VOTRE_NOM/slam-linux/raw/main/slam-linux_1.1_all.deb
+wget https://github.com/thierryavotra-lab/SLAM-LINUX/raw/main/slam-linux_1.1_all.deb
 ```
 
 ### Étape 2 — Installer
@@ -42,7 +42,7 @@ Ou cherchez **SLAM Linux** dans le menu Applications (icône 🐧).
 ## 🔄 Mettre à jour vers une nouvelle version
 
 ```bash
-wget https://github.com/VOTRE_NOM/slam-linux/raw/main/slam-linux_1.1_all.deb
+wget https://github.com/thierryavotra-lab/SLAM-LINUX/raw/main/slam-linux_1.1_all.deb
 sudo apt install ./slam-linux_1.1_all.deb
 ```
 
