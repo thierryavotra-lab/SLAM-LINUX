@@ -18,8 +18,7 @@ Jeu de quiz  adapté pour apprendre les commandes Linux de manière ludique. Ré
 ### Étape 1 — Télécharger le paquet
 
 ```bash
-wget https://github.com/thierryavotra-lab/SLAM-LINUX/raw/main/slam-linux_1.1_all.deb
-```
+wget https://github.com/thierryavotra-lab/SLAM-LINUX/raw/main/slam-linux_1.2_all.deb
 
 ### Étape 2 — Installer
 
@@ -42,8 +41,8 @@ Ou cherchez **SLAM Linux** dans le menu Applications (icône 🐧).
 ## 🔄 Mettre à jour vers une nouvelle version
 
 ```bash
-wget https://github.com/thierryavotra-lab/SLAM-LINUX/raw/main/slam-linux_1.1_all.deb
-sudo apt install ./slam-linux_1.1_all.deb
+wget https://github.com/thierryavotra-lab/SLAM-LINUX/raw/main/slam-linux_1.2_all.deb
+sudo apt install ./slam-linux_1.2_all.deb
 ```
 
 `apt` remplace automatiquement l'ancienne version si elle est déjà installée.
