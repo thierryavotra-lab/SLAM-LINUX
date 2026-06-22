@@ -23,7 +23,7 @@ wget https://github.com/thierryavotra-lab/SLAM-LINUX/raw/main/slam-linux_1.2_all
 ### Étape 2 — Installer
 
 ```bash
-sudo apt install ./slam-linux_1.1_all.deb
+sudo apt install ./slam-linux_1.2_all.deb
 ```
 
 `apt` installe automatiquement les dépendances nécessaires (`zenity`, `netcat`).
@@ -38,16 +38,9 @@ Ou cherchez **SLAM Linux** dans le menu Applications (icône 🐧).
 
 ---
 
-## 🔄 Mettre à jour vers une nouvelle version
 
-```bash
-wget https://github.com/thierryavotra-lab/SLAM-LINUX/raw/main/slam-linux_1.2_all.deb
-sudo apt install ./slam-linux_1.2_all.deb
-```
 
-`apt` remplace automatiquement l'ancienne version si elle est déjà installée.
 
----
 
 ## 🗑️ Désinstaller
 
@@ -69,5 +62,5 @@ sudo apt remove slam-linux
 
 | Version | Changements |
 |---|---|
-| 1.1 | Mode multijoueur revu : chrono global 200s, 20 questions, signal de départ synchronisé |
-| 1.0 | Version initiale — 3 niveaux solo, multijoueur WiFi, mode apprentissage |
+| 1.2 | Mode multijoueur revu : chrono global 200s, 20 questions, signal de départ synchronisé |
+
