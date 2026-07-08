@@ -12,27 +12,18 @@ Jeu de quiz  adapté pour apprendre les commandes Linux de manière ludique. Ré
 - **Synthèse vocale** — Les indices sont lus à voix haute (espeak-ng)
 
 ---
+## 📦 Installation
 
-## 📦 Installation sur Ubuntu 24.04
+### Téléchargement
+Rendez-vous dans la section **[Releases](https://github.com/thierryavotra-lab/SLAM-LINUX/releases)** située sur la droite de cette page. 
+Téléchargez le fichier `slam-linux_1.0_all.deb`.
 
-### Étape 1 — Télécharger le paquet
-
-```bash
-wget https://github.com/thierryavotra-lab/SLAM-LINUX/raw/main/slam-linux_1.2_all.deb
-
-### Étape 2 — Installer
-
-```bash
-sudo apt install ./slam-linux_1.2_all.deb
-```
-
-`apt` installe automatiquement les dépendances nécessaires (`zenity`, `netcat`).
-
-### Étape 3 — Lancer le jeu
+### Installation (Ubuntu / Debian)
+Une fois le fichier téléchargé, ouvrez un terminal dans le dossier de téléchargement et exécutez :
 
 ```bash
-slam-linux
-```
+sudo apt install ./slam-linux_1.0_all.deb
+
 
 Ou cherchez **SLAM Linux** dans le menu Applications (icône 🐧).
 
@@ -56,11 +47,5 @@ sudo apt remove slam-linux
 - `zenity` et `netcat-openbsd` (installés automatiquement)
 - `espeak-ng` recommandé pour la voix (installé automatiquement si possible)
 
----
 
-## 📜 Historique des versions
-
-| Version | Changements |
-|---|---|
-| 1.2 | Mode multijoueur revu : chrono global 200s, 20 questions, signal de départ synchronisé |
 
