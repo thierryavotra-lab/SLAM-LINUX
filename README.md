@@ -25,9 +25,15 @@ Une fois le fichier téléchargé, ouvrez un terminal dans le dossier de téléc
 sudo apt install ./slam-linux_1.0_all.deb
 
 
-Ou cherchez **SLAM Linux** dans le menu Applications (icône 🐧).
+Tapez Slam-linux dans le terminal Ou cherchez **SLAM Linux** dans le menu Applications (icône 🐧),puis lancez le jeux
+  
+
 
 ---
+Pour la version1.1
+sudo apt install ./slam-linux_1.1all.deb
+puis lancer le jeu
+
 
 
 
@@ -46,6 +52,9 @@ sudo apt remove slam-linux
 - Ubuntu 24.04 (ou dérivé compatible avec `apt`)
 - `zenity` et `netcat-openbsd` (installés automatiquement)
 - `espeak-ng` recommandé pour la voix (installé automatiquement si possible)
+
+
+Développé par Avotra
 
 
 
