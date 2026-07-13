@@ -30,6 +30,8 @@ Tapez Slam-linux dans le terminal Ou cherchez **SLAM Linux** dans le menu Applic
 
 
 ---
+POUR LA VERSION V1.1 (MISE A JOUR)
+sudo apt install ./slam-linux_1.1_all.deb
 
 
 
