@@ -30,9 +30,7 @@ Tapez Slam-linux dans le terminal Ou cherchez **SLAM Linux** dans le menu Applic
 
 
 ---
-Pour la version1.1
-sudo apt install ./slam-linux_1.1_all.deb
-puis lancer le jeu
+
 
 
 
